@@ -111,6 +111,10 @@ class temp_model extends CI_Model
 								}
 								if($userLevel=="1"||$userLevel=="4")
 								{
+                                        $data.='<li><a href="'.base_url().'index.php/prapengujian">Pra Pengujian</a></li>';
+								}
+								if($userLevel=="1"||$userLevel=="4")
+								{
                                 	$data.='<li><a href="'.base_url().'index.php/pengujian">Pengujian</a></li>';
 								}
 								if($userLevel=="1"||$userLevel=="5")
